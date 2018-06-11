@@ -1,0 +1,9 @@
+print(52+2) -> To output, if run from script
+52+2 -> no output if run from script
+type(5)-> class int
+math operation based on PEMDAS (parenthesis, exponents, multiplication, division, addition, subtraction)
+Division (1/2) -> 0.5 (unlike other languages, divisions returns float not int)
+comments -> #
+** -> Exponentiation
+// -> Integer division -> returns int unlike divisison
+BuiltInFunctions
