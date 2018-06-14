@@ -1,3 +1,5 @@
+Number,operator and comments
+-----------------------------------------------------------
 print(52+2) -> To output, if run from script
 52+2 -> no output if run from script
 type(5)-> class int
@@ -7,3 +9,124 @@ comments -> #
 ** -> Exponentiation
 // -> Integer division -> returns int unlike divisison
 BuiltInFunctions
+
+===========================================================================================================
+Variable and strings
+--------------------------------------------------------
+x = 100
+raj_number = 1
+print(x+raj_number) = 101
+x*2 = 200
+print(x) -> remains 100
+x,y,z = 10,20,30
+to see vaue in powershell -> print(x) or x //10
+z=z-y ->z=10
+
+Naming Restrictions
+---------------------------------------------------------
+variable must start with letter or underscore
+the rest of the name must consist of letter,numbers, underscore
+names are case sensitive
+eg - shilpi@gmail =2 // syntax error
+
+Naming Conventions
+--------------------------------------------
+Most variable should be snake_case(underscore between words)
+capital snake case refers to constant
+variable should be lower case letters
+variable that starts and ends with 2 underscore are private - eg -> _no_touchy
+upper camel case usually refers to class
+===========================================================================
+
+Data Types
+-----------------------------------------
+Assigned value must be valid data type
+Data Type -> 
+ bool - True or False // is_active = True // is_active // only upper case for true and false not lower
+ int - integer - > 1,2,3 //
+ str - "shilpi" // can be in single or double quotes
+ list - ordered sequence of values of other data types -> [1,2,3] or ["a","b"]
+ dict - collection of key, values - eg -> {"first_name":"shilpi","last_name":"upadhyay"}
+ 
+Dynamic Typing
+-----------------------------------
+python is flexible about reassigning variable to different types ->
+abc = True
+
+abc = "Shilpi"
+
+abc = 22/7
+
+abc = None -> here None is like java Null// None is case sensitive. none will throw error
+
+eg - name = "Daisy"
+age = 40
+child = None // Daisy does not hve a child
+if in script - child - does not print anything
+if print (child) -> None
+type(child) -> <class 'NoneType'>
+===============================================================================
+Declaring Stings
+------------------------------------------------
+String literals can be declared with single or double quotes
+msg = "he said "hello"" // errorsolution - msg = "he said 'hello'" or vice versa
+================================================
+String Escape Characters
+------------------------------------------------
+In pythn escape characters are metacharacters
+
+msg = "hi\nthere"
+print(msg) -> 
+hi
+there
+
+String Concatenation
+---------------------------------------------------------
+a = "you"
+b = "are"
+c = a + "" + b
+
+8 + "hello" -> error
+guess = 9
+print("you guess of" + guess +"is wroong")// error -> cannot concatenate int and string
+
+Formatting Strings
+---------------------------------------------------------
+one way:
+Format strings in python to interpolate variables
+x = 10
+formatted = f"I have told {x} times"
+eg -
+guess = 9
+print(f"you guess of" {guess} is wroong")
+print(f"you guess of" {guess+1} is wroong")
+2nd way:.format() method
+x=10
+formatted = "I have told {} times".forward(10)
+3rd way: % operator - deprecated
+x=10
+formatted = "I have told %d times" %(x) 
+----------------------------------------------------------
+"lol" - it is stored with indexes
+lol[0] -> l
+
+name = "shalu"
+name[-1] // u
+==================================================
+Converting Data Types
+-----------------------------------------------------------
+
+x = 12.343636
+y = int(x)//12
+
+my_list = [1,2,3]
+y = str(my_list) //"[1,2,3]"
+
+
+ 
+
+
+
+
+
+
