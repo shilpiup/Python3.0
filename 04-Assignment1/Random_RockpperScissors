@@ -1,0 +1,30 @@
+#import random
+from random import randint
+print("rock")
+print("paper")
+print("scissors")
+
+compChoice = randint(0, 2)
+
+playerChoice =  input("Player choice?")
+print(compChoice)
+
+#if compChoice == playerChoice:
+ #print("Tie!!")
+if compChoice == 0 and playerChoice == "paper":
+	print("player wins!")
+if compChoice == 0 and playerChoice == "scissors":
+	print("computer wins!")
+
+elif compChoice == 1 and playerChoice == "rock":
+	print("computer wins!")
+if compChoice == 1 and playerChoice == "scissors":
+	print("player wins")
+
+if compChoice == 2 and playerChoice == "rock":
+	print("player wins!")
+
+if compChoice == "scissors" and playerChoice == "paper":
+	print("computer wins")
+
+

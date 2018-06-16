@@ -1,4 +1,4 @@
-Number,operator and comments
+1. Number,operator and comments
 -----------------------------------------------------------
 print(52+2) -> To output, if run from script
 52+2 -> no output if run from script
@@ -11,7 +11,7 @@ comments -> #
 BuiltInFunctions
 
 ===========================================================================================================
-Variable and strings
+2. Variable and strings
 --------------------------------------------------------
 x = 100
 raj_number = 1
@@ -22,14 +22,14 @@ x,y,z = 10,20,30
 to see vaue in powershell -> print(x) or x //10
 z=z-y ->z=10
 
-Naming Restrictions
+3. Naming Restrictions
 ---------------------------------------------------------
 variable must start with letter or underscore
 the rest of the name must consist of letter,numbers, underscore
 names are case sensitive
 eg - shilpi@gmail =2 // syntax error
 
-Naming Conventions
+4. Naming Conventions
 --------------------------------------------
 Most variable should be snake_case(underscore between words)
 capital snake case refers to constant
@@ -38,7 +38,7 @@ variable that starts and ends with 2 underscore are private - eg -> _no_touchy
 upper camel case usually refers to class
 ===========================================================================
 
-Data Types
+5. Data Types
 -----------------------------------------
 Assigned value must be valid data type
 Data Type -> 
@@ -48,7 +48,7 @@ Data Type ->
  list - ordered sequence of values of other data types -> [1,2,3] or ["a","b"]
  dict - collection of key, values - eg -> {"first_name":"shilpi","last_name":"upadhyay"}
  
-Dynamic Typing
+6. Dynamic Typing
 -----------------------------------
 python is flexible about reassigning variable to different types ->
 abc = True
@@ -66,7 +66,7 @@ if in script - child - does not print anything
 if print (child) -> None
 type(child) -> <class 'NoneType'>
 ===============================================================================
-Declaring Stings
+7. Declaring Stings
 ------------------------------------------------
 String literals can be declared with single or double quotes
 msg = "he said "hello"" // errorsolution - msg = "he said 'hello'" or vice versa
@@ -80,7 +80,7 @@ print(msg) ->
 hi
 there
 
-String Concatenation
+8. String Concatenation
 ---------------------------------------------------------
 a = "you"
 b = "are"
@@ -90,7 +90,7 @@ c = a + "" + b
 guess = 9
 print("you guess of" + guess +"is wroong")// error -> cannot concatenate int and string
 
-Formatting Strings
+9. Formatting Strings
 ---------------------------------------------------------
 one way:
 Format strings in python to interpolate variables
@@ -113,7 +113,7 @@ lol[0] -> l
 name = "shalu"
 name[-1] // u
 ==================================================
-Converting Data Types
+10. Converting Data Types
 -----------------------------------------------------------
 
 x = 12.343636
@@ -121,6 +121,89 @@ y = int(x)//12
 
 my_list = [1,2,3]
 y = str(my_list) //"[1,2,3]"
+
+==============================================
+11. user input ->
+----------------------------------------------
+name = input("enter your name")
+km = input()
+round() -> how many decimal digits
+eg - round(km,2)
+print(f"you chose{km}")
+ 
+===============================================
+12. Boolean and conditional logic
+------------------------------------------------------
+
+Conditional statements - 
+if some condition is True:
+ Do something
+elif other condn is True
+ Do something
+else:
+ do something
+
+-> python is whitespace sensitive #gives indentation error
+
+eg -> if name == "shilpi":
+      print("hi")
+	  elif name == "shalu":
+	      print ("hello")
+		  else:
+		  print ("bye!")
+		  
+you can have many elif if required
+
+==============================================
+13. Truthiness and Falsiness
+---------------------------------
+is keyword ->
+x = 1
+x is 1 #True
+x is 0 #False
+
+Natural false - empty object, empty string, None, zero
+so everything except above is truthy
+
+==========================================================
+14. Comparision Operators
+-----------------------------------
+1 == 1 #True
+==
+!=
+>
+<
+>=
+<=
+===========================================================
+15. Logical operators
+------------------------------------------
+and
+or
+not
+===========================================================
+16. is vs "=="
+---------------------------------------------------
+a = 1
+a is 1 #True
+a== 1 #True
+
+a = [1,2,3]
+b = [1,2,3]
+a == b # True it checks value
+a is b # False . it checks reference - memory
+================================================
+To print anything n number of times ->
+print("Hello\n" * n)
+print("Hello\n" * 20) # prints 20 times
+
+To import -
+
+From import random randint
+
+====================================
+Looping
+------------------------------------
 
 
  
