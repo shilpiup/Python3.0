@@ -1,6 +1,6 @@
-#for num in range(1,10):
-#	for j in range(1,num):
-#		print ("*")
+for num in range(1,10):
+	for j in range(1,num):
+		print ("*")
 
 for i in range(1,10):
 	print("*"*i)

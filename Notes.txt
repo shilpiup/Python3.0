@@ -235,7 +235,14 @@ While loops
 while x>20:
  print("")
 for while loops , u have to put termination condition manually
+=======================================================
+Controlled Exit:
+-----------------------------------
+break keyword
 
+=======================================================
+Lists - collection or grouping of items
+----------------------------------------------------------
 
 
 
