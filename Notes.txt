@@ -242,7 +242,99 @@ break keyword
 
 =======================================================
 Lists - collection or grouping of items
-----------------------------------------------------------
+-------------------------------------------------------
+tasks = ["a","b","c"]
+it can have string,number,boolen as well with comma separated
+1. BuiltInFunctions -
+len(tasks) #3
+
+r = range(1,10)
+list(r) #[1,2,....,10]
+2. Accessing values in a list -
+tasks[0]
+tasks[1]
+
+3. Negative number to index backward
+task[-1] #c
+task[-2] #b
+
+4. "b" in tasks
+True
+
+5. Accessing all values in a list
+
+numbers = [1,2,3,4]
+for number in numbers:
+ print(number)
+
+6. while loop -
+numbers = [1,2,4,5]
+i = 0
+while i<len(numbers):
+ print(numbers[i])
+ i+=1
+ 
+7. List Methods - 
+print(1+3)
+len([1]) #1
+
+a) append()
+data = [1,2,3]
+data.append(5) #[1,2,3,5]
+Note - cannot append more than one element, that can be done using extend()
+
+b) extend()
+data.extend([4,5])
+#[1,2,3,4,5]
+
+c) insert()
+data.insert(2,'Hi') #[1,2,Hi,3]
+data.insert(-1, 'The end!') #Theend! will be inserted at the last position
+#[1,2,3,The end!,4]
+
+d) clear()
+remove all the items from list
+data.clear() #[]
+
+e) pop()
+remove single element at the given position
+by default it removes the last element if no position is given
+data.pop() # removes 4
+data.pop(2) # removes second position element
+
+f) remove()
+removes first item (if multiple instances of same name) from the list
+data.remove(3) # removes 3 [here 3 is element not index]
+
+g) index()
+finds the index of given number
+data.index(1) # 0
+data = [1,2,3,3,4,5]
+data.index(3,1) #3 at 3rd index
+
+h) count()
+count the given number in list
+data.count(3) #2
+
+i) reverse()
+data.reverse() # [3,2,1]
+data = [2,3,4,1]
+
+j) sort()
+data.sort() #[1,2,3,4]
+capital letter name comes first than lower (ABC and abc)
+
+k) join() - its string method not list method
+words = ['coding','is','fun']
+''.join(words) #joins each item in list with ''
+# coding <space> is <space> fun
+
+--------------------------------------------------------------------------------------------------
+
+
+
+
+ 
 
 
 
